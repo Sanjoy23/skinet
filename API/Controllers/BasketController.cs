@@ -3,11 +3,11 @@ using Core.Entities;
 using Core.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
-public class BusketController : BaseApiController
+public class BasketController : BaseApiController
 {
     private readonly IBasketRepository _basketRepository;
 
-    public BusketController(IBasketRepository basketRepository)
+    public BasketController(IBasketRepository basketRepository)
     {
         _basketRepository = basketRepository;
     }
